@@ -29,12 +29,14 @@ ii. [Most useful concepts for system design interviews](https://designnerds.medi
 
 **MUST HAVE PRACTICE PROBLEMS FOR LOW LEVEL DESIGN INTERVIEW** - 
 
-**1. [Designing a Scalable In-Memory File System Using SOLID Principles.](https://blog.devgenius.io/low-level-design-designing-a-scalable-in-memory-file-system-using-solid-principles-df792aa21f6d)** 
+**1. [Scalable In-Memory File System](https://blog.devgenius.io/low-level-design-designing-a-scalable-in-memory-file-system-using-solid-principles-df792aa21f6d)** 
 
 **2. [Rate Limiting System](https://levelup.gitconnected.com/low-level-design-rate-limiting-system-a815eac97fea?source=user_profile_page---------0-------------9e7bd989dd82---------------)** 
 
-**3. [Load Balancer Design with Health Checks, Metrics, and Fallbacks](https://blog.devgenius.io/low-level-design-load-balancer-design-with-health-checks-metrics-and-fallbacks-e7ef23a8620a)** 
+**3. [Load Balancer System](https://blog.devgenius.io/low-level-design-load-balancer-design-with-health-checks-metrics-and-fallbacks-e7ef23a8620a)** 
 
-**4. [Online Food Delivery System design](https://levelup.gitconnected.com/low-level-design-online-food-delivery-system-a-solid-and-scalable-architecture-ae2ab287d9a8)** 
+**4. [Online Food Delivery System ](https://levelup.gitconnected.com/low-level-design-online-food-delivery-system-a-solid-and-scalable-architecture-ae2ab287d9a8)** 
 
-**5. [Payment gateway system design](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9)** 
+**5. [Payment gateway system ](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9)** 
+
+**6. [File Sharing System (eg. Dropbox, GoogleDrive)](https://medium.com/@designnerds/low-level-design-file-sharing-system-4ec4b6793ee0)**
