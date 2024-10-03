@@ -6,54 +6,10 @@ Repository of system design, low level design concepts, design pattern and deep 
 
 ## System Design 
 ### Prerequisites: 
-i. [Structured approach for system design interviews](https://medium.com/dev-nectar/structured-approach-for-system-design-interviews-ef616b2af1c7)
+i. [Structured approach for system design interviews](https://medium.com/dev-nectar/structured-approach-for-system-design-interviews-ef616b2af1c7) <br>
 ii. [Most useful concepts for system design interviews](https://designnerds.medium.com/most-useful-concepts-for-system-design-interviews-part-1-da3b35e2c1b6)
  ### Concepts
    #### i. [Load balancer, API Gateway, Forward Proxy, Reverse Proxy](https://medium.com/dev-nectar/load-balancers-api-gateways-forward-proxies-and-reverse-proxies-cdd03e629553)
-   ```mermaid
-graph TD;
-
-    %% Forward Proxy Flow (External Request to Load Balancer)
-    A[Client] -->|Request| B[Forward Proxy]
-    B -->|Forwarded Request| C[Load Balancer]
-    
-    %% Load Balancer distributes the request to API Gateway
-    C -->|Distribute Request| D[API Gateway]
-    
-    %% API Gateway routes to microservices through Reverse Proxy
-    D -->|Route to Microservice| E[Reverse Proxy]
-    E -->|Forward Request to Backend| F1[Microservice 1]
-    E -->|Forward Request to Backend| F2[Microservice 2]
-
-    %% Backend Services Response
-    F1 -->|Response| E
-    F2 -->|Response| E
-    E -->|Send Response| D
-    D -->|Send Final Response| C
-    C -->|Send Response| B
-    B -->|Send Response to Client| A
-
-    %% Grouping for Clarity
-    subgraph External Network
-        A --> B
-    end
-
-    subgraph Proxy & Balancer
-        B --> C --> D
-    end
-
-    subgraph Backend Architecture
-        D --> E --> F1
-        E --> F2
-    end
-
-    %% Styles
-    style B fill:#ffcc00,stroke:#333,stroke-width:2px
-    style C fill:#ff6699,stroke:#333,stroke-width:2px
-    style D fill:#00ccff,stroke:#333,stroke-width:2px
-    style E fill:#66ff66,stroke:#333,stroke-width:2px
-
-```
 #### ii. [API Essentials : Versioning and HATEOAS](https://medium.com/dev-nectar/api-essentials-versioning-and-hateoas-ddd0b69685f7)
 #### iii. [How to design Enterprise-Ready APIs](https://medium.com/dev-nectar/how-to-design-enterprise-ready-apis-5a19c141b09e)
 #### iv. [Designing Smart APIs for Serverless Architectures](https://medium.com/dev-nectar/designing-smart-apis-for-serverless-architectures-17f9a45608b8)
@@ -61,10 +17,14 @@ graph TD;
 #### vi. [The Secret Weapon for System Design Interviews: API Essentials](https://medium.com/dev-nectar/the-secret-weapon-for-system-design-interviews-api-essentials-8665c6585d9a)
 #### vii. [API Gateway vs Load Balancer - Data driven approach](https://medium.com/dev-nectar/system-design-concepts-api-gateway-vs-load-balancer-71d7f2fd048e)
 #### viii. [Bursty traffic handling](https://designnerds.medium.com/system-design-concepts-bursty-traffic-handling-7738127f5a0d)
-#### ix. 
+#### ix. [ACID properties in NoSQL db](https://blog.devgenius.io/acid-properties-in-nosql-db-f6ed1c837887)
  
  ### Problem deep dives
-
+ #### i. Distributed Video Transcoding System - [Part1](https://medium.com/dev-nectar/system-design-online-multiplayer-game-part-1-d6454888794a) [Part2](https://designnerds.medium.com/distributed-video-transcoding-system-design-part2-video-upload-service-007294f4f5cd)
+ #### ii. [Event ticketing system (BookMyShow) ](https://blog.devgenius.io/system-design-event-ticketing-system-part-1-7e81cd8f0452)
+ #### iii. Instagram reels [Part1](https://medium.com/dev-genius/system-design-instagram-reels-9707d7eba8ab) [Part2](https://blog.devgenius.io/system-design-instagram-reels-part-2-a6f49e9f56cb)
+ #### iv. Notification system [Part1](https://blog.devgenius.io/system-design-notification-system-part-1-cf4efadf9fd2) [Part2](https://blog.devgenius.io/system-design-notification-system-part-2-f5e703c746b2)
+ #### v. [Online multiplayer game](https://designnerds.medium.com/system-design-online-multiplayer-game-part-1-d6454888794a)
 ## Low Level Design
 
 **MUST HAVE PRACTICE PROBLEMS FOR LOW LEVEL DESIGN INTERVIEW** - 
