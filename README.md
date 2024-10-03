@@ -1,10 +1,13 @@
-# DesignNerds | SystemDesign-Playbook
+# [DesignNerds](https://designnerds.medium.com/) | SystemDesign-Playbook
 
 
 Repository of system design, low level design concepts, design pattern and deep dive on low/medium/high complexity problems. 
 
 
 ## System Design 
+### Prerequisites: 
+i. [Structured approach for system design interviews](https://medium.com/dev-nectar/structured-approach-for-system-design-interviews-ef616b2af1c7)
+ii. [Most useful concepts for system design interviews](https://designnerds.medium.com/most-useful-concepts-for-system-design-interviews-part-1-da3b35e2c1b6)
  ### Concepts
    #### i. [Load balancer, API Gateway, Forward Proxy, Reverse Proxy](https://medium.com/dev-nectar/load-balancers-api-gateways-forward-proxies-and-reverse-proxies-cdd03e629553)
    ```mermaid
@@ -51,6 +54,15 @@ graph TD;
     style E fill:#66ff66,stroke:#333,stroke-width:2px
 
 ```
+#### ii. [API Essentials : Versioning and HATEOAS](https://medium.com/dev-nectar/api-essentials-versioning-and-hateoas-ddd0b69685f7)
+#### iii. [How to design Enterprise-Ready APIs](https://medium.com/dev-nectar/how-to-design-enterprise-ready-apis-5a19c141b09e)
+#### iv. [Designing Smart APIs for Serverless Architectures](https://medium.com/dev-nectar/designing-smart-apis-for-serverless-architectures-17f9a45608b8)
+#### v. [Top Microservices Anti-Patterns: How to Identify and Fix Them with Java Implementation](https://medium.com/dev-nectar/top-microservices-anti-patterns-how-to-identify-and-fix-them-with-java-implementation-440918569d36)
+#### vi. [The Secret Weapon for System Design Interviews: API Essentials](https://medium.com/dev-nectar/the-secret-weapon-for-system-design-interviews-api-essentials-8665c6585d9a)
+#### vii. [API Gateway vs Load Balancer - Data driven approach](https://medium.com/dev-nectar/system-design-concepts-api-gateway-vs-load-balancer-71d7f2fd048e)
+#### viii. [Bursty traffic handling](https://designnerds.medium.com/system-design-concepts-bursty-traffic-handling-7738127f5a0d)
+#### ix. 
+ 
  ### Problem deep dives
 
 ## Low Level Design
