@@ -58,6 +58,6 @@ ii. [Most useful concepts for system design interviews](https://designnerds.medi
 
 **[14. Scalable metrics collection system ](https://designnerds.medium.com/low-level-design-scalable-metrics-collection-system-with-threshold-based-alerts-8a0ae173028b?source=list---------11-------820638d2aab2---------------------)**
 
-**[15. Asynchronous task scheduler]((https://designnerds.medium.com/asynchronous-task-scheduler-2549df5dca8e?source=list---------13-------820638d2aab2---------------------))**
+**[15. Asynchronous task scheduler](https://designnerds.medium.com/asynchronous-task-scheduler-2549df5dca8e?source=list---------13-------820638d2aab2---------------------)**
 
 **[16. Job scheduler system]((https://designnerds.medium.com/job-scheduler-design-03c3240fc5e3?source=list---------15-------820638d2aab2---------------------))**
