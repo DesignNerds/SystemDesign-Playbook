@@ -29,23 +29,23 @@ ii. [Most useful concepts for system design interviews](https://designnerds.medi
 
 **MUST HAVE PRACTICE PROBLEMS FOR LOW LEVEL DESIGN INTERVIEW** - 
 
-**1. [Scalable In-Memory File System](https://blog.devgenius.io/low-level-design-designing-a-scalable-in-memory-file-system-using-solid-principles-df792aa21f6d)** 
+**[1. Scalable In-Memory File System](https://blog.devgenius.io/low-level-design-designing-a-scalable-in-memory-file-system-using-solid-principles-df792aa21f6d)** 
 
-**2. [Rate Limiting System](https://levelup.gitconnected.com/low-level-design-rate-limiting-system-a815eac97fea?source=user_profile_page---------0-------------9e7bd989dd82---------------)** 
+**[2. Rate Limiting System](https://levelup.gitconnected.com/low-level-design-rate-limiting-system-a815eac97fea?source=user_profile_page---------0-------------9e7bd989dd82---------------)** 
 
-**3. [Load Balancer System](https://blog.devgenius.io/low-level-design-load-balancer-design-with-health-checks-metrics-and-fallbacks-e7ef23a8620a)** 
+**[3. Load Balancer System](https://blog.devgenius.io/low-level-design-load-balancer-design-with-health-checks-metrics-and-fallbacks-e7ef23a8620a)** 
 
-**4. [Online Food Delivery System ](https://levelup.gitconnected.com/low-level-design-online-food-delivery-system-a-solid-and-scalable-architecture-ae2ab287d9a8)** 
+**[4. Online Food Delivery System ](https://levelup.gitconnected.com/low-level-design-online-food-delivery-system-a-solid-and-scalable-architecture-ae2ab287d9a8)** 
 
-**5. [Payment gateway system ](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9)** 
+**[5. Payment gateway system ](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9)** 
 
-**6. [File Sharing System (eg. Dropbox, GoogleDrive)](https://medium.com/@designnerds/low-level-design-file-sharing-system-4ec4b6793ee0)**
+**[6. File Sharing System (eg. Dropbox, GoogleDrive)](https://medium.com/@designnerds/low-level-design-file-sharing-system-4ec4b6793ee0)**
 
 **7. [Blogging platform (eg. Medium) ](https://designnerds.medium.com/low-level-design-blogging-platform-for-egmedium-8d96d6855550?source=list---------0-------820638d2aab2---------------------))**
 
-**8. [Rate limiting system with Bloom filters](https://designnerds.medium.com/system-design-rate-limiting-system-with-bloom-filters-f540f19152ef?source=list---------1-------820638d2aab2---------------------)**
+**[8. Rate limiting system with Bloom filters](https://designnerds.medium.com/system-design-rate-limiting-system-with-bloom-filters-f540f19152ef?source=list---------1-------820638d2aab2---------------------)**
 
-**9. [Stack overflow system](https://designnerds.medium.com/low-level-design-stack-overflow-system-00f209ab1fed?source=list---------2-------820638d2aab2---------------------)**
+**[9. Stack overflow system](https://designnerds.medium.com/low-level-design-stack-overflow-system-00f209ab1fed?source=list---------2-------820638d2aab2---------------------)**
 
 **[10. Video conferencing system
 ](https://designnerds.medium.com/low-level-design-video-conferencing-system-f69a97f7afc7?source=list---------3-------820638d2aab2---------------------)**
