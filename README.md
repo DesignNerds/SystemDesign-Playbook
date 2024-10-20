@@ -54,7 +54,7 @@ ii. [Most useful concepts for system design interviews](https://designnerds.medi
 
 **[12. URL shortner system]((https://designnerds.medium.com/low-level-design-url-shortener-system-102ac71ff720?source=list---------5-------820638d2aab2---------------------))**
 
-**[13. Search autocomplete system ]((https://designnerds.medium.com/low-level-design-search-autocomplete-system-fa7a099a482d?source=list---------7-------820638d2aab2---------------------))**
+**[13. Search autocomplete system ](https://designnerds.medium.com/low-level-design-search-autocomplete-system-fa7a099a482d?source=list---------7-------820638d2aab2---------------------)**
 
 **[14. Scalable metrics collection system ](https://designnerds.medium.com/low-level-design-scalable-metrics-collection-system-with-threshold-based-alerts-8a0ae173028b?source=list---------11-------820638d2aab2---------------------)**
 
