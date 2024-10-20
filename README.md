@@ -41,23 +41,23 @@ ii. [Most useful concepts for system design interviews](https://designnerds.medi
 
 **6. [File Sharing System (eg. Dropbox, GoogleDrive)](https://medium.com/@designnerds/low-level-design-file-sharing-system-4ec4b6793ee0)**
 
-**7. [Blogging platform (eg. Medium) ]([url](https://designnerds.medium.com/low-level-design-blogging-platform-for-egmedium-8d96d6855550?source=list---------0-------820638d2aab2---------------------))**
+**7. [Blogging platform (eg. Medium) ](https://designnerds.medium.com/low-level-design-blogging-platform-for-egmedium-8d96d6855550?source=list---------0-------820638d2aab2---------------------))**
 
-**8. [Rate limiting system with Bloom filters]([url](https://designnerds.medium.com/system-design-rate-limiting-system-with-bloom-filters-f540f19152ef?source=list---------1-------820638d2aab2---------------------))**
+**8. [Rate limiting system with Bloom filters]((https://designnerds.medium.com/system-design-rate-limiting-system-with-bloom-filters-f540f19152ef?source=list---------1-------820638d2aab2---------------------))**
 
-**9. [Stack overflow system]([url](https://designnerds.medium.com/low-level-design-stack-overflow-system-00f209ab1fed?source=list---------2-------820638d2aab2---------------------))**
+**9. [Stack overflow system]((https://designnerds.medium.com/low-level-design-stack-overflow-system-00f209ab1fed?source=list---------2-------820638d2aab2---------------------))**
 
 **[10. Video conferencing system
-]([url](https://designnerds.medium.com/low-level-design-video-conferencing-system-f69a97f7afc7?source=list---------3-------820638d2aab2---------------------))**
+]((https://designnerds.medium.com/low-level-design-video-conferencing-system-f69a97f7afc7?source=list---------3-------820638d2aab2---------------------))**
 
-**[11. Snake and ladder game]([url](https://designnerds.medium.com/low-level-design-snake-and-ladder-game-758eec0fff12?source=list---------4-------820638d2aab2---------------------))**
+**[11. Snake and ladder game]((https://designnerds.medium.com/low-level-design-snake-and-ladder-game-758eec0fff12?source=list---------4-------820638d2aab2---------------------))**
 
-**[12. URL shortner system]([url](https://designnerds.medium.com/low-level-design-url-shortener-system-102ac71ff720?source=list---------5-------820638d2aab2---------------------))**
+**[12. URL shortner system]((https://designnerds.medium.com/low-level-design-url-shortener-system-102ac71ff720?source=list---------5-------820638d2aab2---------------------))**
 
-**[13. Search autocomplete system ]([url](https://designnerds.medium.com/low-level-design-search-autocomplete-system-fa7a099a482d?source=list---------7-------820638d2aab2---------------------))**
+**[13. Search autocomplete system ]((https://designnerds.medium.com/low-level-design-search-autocomplete-system-fa7a099a482d?source=list---------7-------820638d2aab2---------------------))**
 
 **[14. Scalable metrics collection system ](https://designnerds.medium.com/low-level-design-scalable-metrics-collection-system-with-threshold-based-alerts-8a0ae173028b?source=list---------11-------820638d2aab2---------------------)**
 
-**[15. Asynchronous task scheduler]([url](https://designnerds.medium.com/asynchronous-task-scheduler-2549df5dca8e?source=list---------13-------820638d2aab2---------------------))**
+**[15. Asynchronous task scheduler]((https://designnerds.medium.com/asynchronous-task-scheduler-2549df5dca8e?source=list---------13-------820638d2aab2---------------------))**
 
-**[16. Job scheduler system]([url](https://designnerds.medium.com/job-scheduler-design-03c3240fc5e3?source=list---------15-------820638d2aab2---------------------))**
+**[16. Job scheduler system]((https://designnerds.medium.com/job-scheduler-design-03c3240fc5e3?source=list---------15-------820638d2aab2---------------------))**
