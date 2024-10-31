@@ -25,6 +25,9 @@ ii. [Most useful concepts for system design interviews](https://designnerds.medi
  #### iii. Instagram reels [Part1](https://medium.com/dev-genius/system-design-instagram-reels-9707d7eba8ab) [Part2](https://blog.devgenius.io/system-design-instagram-reels-part-2-a6f49e9f56cb)
  #### iv. Notification system [Part1](https://blog.devgenius.io/system-design-notification-system-part-1-cf4efadf9fd2) [Part2](https://blog.devgenius.io/system-design-notification-system-part-2-f5e703c746b2)
  #### v. [Online multiplayer game](https://designnerds.medium.com/system-design-online-multiplayer-game-part-1-d6454888794a)
+
+_System Design Concepts for Interviews
+Collection of system design concepts related to API design, Load balancer, Proxy, API Gateway, Monitoring, Alerting etc.. Must have for preparation of Senior SDE Interviews, refreshing concepts related to distributed systems design._ [Link](https://medium.com/@designnerds/list/system-design-concepts-for-interviews-7b12980141be) 
 ## Low Level Design
 
 **MUST HAVE PRACTICE PROBLEMS FOR LOW LEVEL DESIGN INTERVIEW** - 
