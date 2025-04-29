@@ -101,4 +101,18 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 | 66 | **System Architecture Article 66** | [Read Here](https://medium.com/@scalabrix/system-architecture-article-66) | Apr 7, 2025 | *This is a short description for article 66 focused on key system design principles.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
+---
+
+## 📊 Project Metrics
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=scalabrix.system_design_concepts" alt="Visitor Count" /> 
+  <img src="https://img.shields.io/github/stars/scalabrix/system_design_concepts?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/scalabrix/system_design_concepts?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/badge/Medium-Claps-ff69b4" alt="Medium Claps" />
+</p>
+
+---
+
+> 🚀 *Thank you for visiting! Feel free to star ⭐ the repo, fork 🍴 it, or clap 👏 on Medium if you found this useful!*
 
