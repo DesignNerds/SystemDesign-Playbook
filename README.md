@@ -6,16 +6,16 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 
 ## 📚 Articles
 
-### 1. [System Architecture: Client-Side Caching Layer with ETag Validation](https://medium.com/@scalabrix/system-architecture-client-side-caching-layer-with-etag-validation-1234567890ab) *(Published: Apr 28, 2025)*
+### 1. [System Architecture: Client-Side Caching Layer with ETag Validation](https://medium.com/@scalabrix/system-architecture-client-side-caching-layer-with-etag-validation-67b2ce6e3347) *(Published: Apr 28, 2025)*
 *Explores decentralized caching combined with intelligent ETag validation to enhance scalability and load efficiency.*
 
-### 2. [System Architecture: Distributed Cache Invalidation Service](https://medium.com/@scalabrix/system-architecture-distributed-cache-invalidation-service-1234567890ab) *(Published: Apr 27, 2025)*
+### 2. [System Architecture: Distributed Cache Invalidation Service](https://medium.com/@scalabrix/system-architecture-distributed-cache-invalidation-service-cab59eeeee15) *(Published: Apr 27, 2025)*
 *Designs a scalable distributed cache invalidation service to maintain data consistency across systems.*
 
-### 3. [System Architecture: Idempotency in Payment Transactions](https://medium.com/@scalabrix/system-architecture-idempotency-in-payment-transactions-1234567890ab) *(Published: Apr 25, 2025)*
+### 3. [System Architecture: Idempotency in Payment Transactions](https://medium.com/@scalabrix/system-architecture-idempotency-in-payment-transactions-1d7888480648) *(Published: Apr 25, 2025)*
 *Discusses strategies to implement idempotent payment processing systems, preventing duplicate transactions.*
 
-### 4. [System Architecture: Enterprise-Grade Load Balancing Architecture](https://medium.com/@scalabrix/system-architecture-enterprise-grade-load-balancing-architecture-1234567890ab) *(Published: Apr 5, 2025)*
+### 4. [System Architecture: Enterprise-Grade Load Balancing Architecture](https://medium.com/@scalabrix/system-architecture-enterprise-grade-load-balancing-architecture-9dd774e508aa) *(Published: Apr 5, 2025)*
 *Designs multi-layered load balancers with failover, autoscaling, and observability for high availability.*
 
 ### 5. [System Architecture: Handling Backpressure in a Cloud-Based Video Streaming Service](https://medium.com/@scalabrix/system-architecture-handling-backpressure-video-streaming-1234567890ab) *(Published: Mar 28, 2025)*
