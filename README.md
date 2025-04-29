@@ -32,8 +32,8 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=scalabrix.system_design_concepts" alt="Visitor Count" /> 
-  <img src="https://img.shields.io/github/stars/scalabrix/system_design_concepts?style=social" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/scalabrix/system_design_concepts?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/stars/DesignNerds/SystemDesign-Playbook?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/DesignNerds/SystemDesign-Playbook?style=social" alt="GitHub Forks" />
   <img src="https://img.shields.io/badge/Medium-Claps-ff69b4" alt="Medium Claps" />
 </p>
 
