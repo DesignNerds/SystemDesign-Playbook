@@ -27,6 +27,78 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 
 ---
 ---
+```mermaid
+  flowchart TD
+ subgraph L1["Producer Layer"]
+        P1["1: Producer Application<br>(e.g., Order, Trip, Payment Service)"]
+  end
+ subgraph L2["Producer API"]
+        API1["2: Producer API<br>acks, batching, retries, backpressure-aware"]
+  end
+ subgraph L3["Broker/Queue Cluster"]
+        Broker["3: Distributed Broker/Queue<br>Tracks queue depth, resource usage"]
+        DLQ["8: Dead Letter Queue (DLQ)<br>Stores failed messages"]
+  end
+ subgraph L4["Consumer API"]
+        API2["4: Consumer API<br>delivery guarantees, retries, error handling"]
+  end
+ subgraph L5["Consumer Layer"]
+        C1["5: Consumer Application<br>(e.g., Analytics, Processing, Billing)"]
+  end
+ subgraph L6["Ops & Monitoring"]
+        Ops["9: Ops/Monitoring<br>Tracks lag, DLQ, system health"]
+  end
+    P1 L_P1_API1_0@-- 1: Send message/event<br>to Producer API --> API1
+    API1 L_API1_Broker_0@-- 2: Apply config (acks, batching, retries) --> Broker
+    Broker L_Broker_API2_0@-- 3: Store and replicate message --> API2
+    API2 L_API2_C1_0@-- "4: Apply delivery guarantee<br>(at-least/exactly-once), retries" --> C1
+    C1 -- 5: Process message<br>(business logic) --> C1
+    C1 L_C1_API2_0@-- 6: Ack success<br>(commit offset) --> API2
+    API2 L_API2_Broker_0@-- 7: Commit offset to broker --> Broker
+    C1 L_C1_DLQ_0@-- 8: If processing fails after N retries,<br>route to DLQ --> DLQ
+    DLQ L_DLQ_Ops_0@-- 9: Notify ops/monitoring<br>for investigation or replay --> Ops
+    Broker L_Broker_API1_0@-- 10: Backpressure signal<br>(high lag, queue depth) --> API1
+    API1 L_API1_P1_0@-- 11: Slow down, buffer, or retry<br>based on backpressure --> P1
+    Broker L_Broker_Ops_0@-- 12: Expose metrics to ops/monitoring<br>(lag, throughput, errors) --> Ops
+
+    classDef gray fill:#F7F7F7,stroke:#bbb
+    style P1 color:#2962FF
+    style API1 color:#FF6D00
+    style Broker color:#D50000
+    style DLQ color:#D50000
+    style API2 color:#2962FF
+    style C1 color:#757575
+    style Ops color:#AA00FF
+    style L1 stroke:#FF6D00
+    style L2 stroke:#D50000
+    style L4 stroke:#00C853
+    style L6 stroke:#AA00FF
+    linkStyle 0 stroke:#00C853,fill:none
+    linkStyle 1 stroke:#00C853,fill:none
+    linkStyle 2 stroke:#00C853,fill:none
+    linkStyle 3 stroke:#00C853,fill:none
+    linkStyle 5 stroke:#AA00FF,fill:none
+    linkStyle 6 stroke:#AA00FF,fill:none
+    linkStyle 7 stroke:#D50000,fill:none
+    linkStyle 8 stroke:#D50000,fill:none
+    linkStyle 9 stroke:#AA00FF,fill:none
+    linkStyle 11 stroke:#00C853
+
+    L_P1_API1_0@{ animation: fast } 
+    L_API1_Broker_0@{ animation: fast } 
+    L_Broker_API2_0@{ animation: fast } 
+    L_API2_C1_0@{ animation: fast } 
+    L_C1_API2_0@{ animation: fast } 
+    L_API2_Broker_0@{ animation: fast } 
+    L_C1_DLQ_0@{ animation: fast } 
+    L_DLQ_Ops_0@{ animation: fast } 
+    L_Broker_API1_0@{ animation: fast } 
+    L_API1_P1_0@{ animation: fast } 
+    L_Broker_Ops_0@{ animation: fast } 
+
+
+```
+
 
 ## 📊 Project Metrics
 
