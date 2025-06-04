@@ -1,0 +1,74 @@
+// ===== 1. Log Ingestor Service (per Microservice) =====
+function LogIngestor(sourceId):
+    while true:
+        logs = fetchNewLogs(sourceId)           // Collect new logs from source
+        for log in logs:
+            log.timestamp = assignTimestamp(log) // Ensure timestamp is set
+            bufferLocallyIfNeeded(log)           // For reliability if buffer/queue is down
+        batch = createBatch(logs)
+        sendToCentralBuffer(batch, sourceId)     // Send to Kafka/Pulsar/Stream
+
+// ===== 2. Central Log Buffer (Kafka/Pulsar/Redis Streams) =====
+// Managed service - acts as a persistent, partitioned message queue
+
+// ===== 3. Merge Coordinator (Orchestrator) =====
+function MergeCoordinator():
+    while true:
+        // 3.1. Advance global watermark based on log arrival from all sources
+        watermark = computeWatermarkAcrossSources()
+        // 3.2. For each merge window (e.g., 1s batch):
+        for window in mergeWindows(watermark):
+            batches = []
+            for sourceId in allSources:
+                // 3.3. Pull batch for window from each source partition
+                batch = pullLogsFromBuffer(sourceId, window)
+                batches.append(batch)
+            // 3.4. Spawn merge job
+            enqueueMergeJob(batches, window)
+
+// ===== 4. Merge Worker (K-way Merge for One Window) =====
+function MergeWorker(batches, window):
+    heap = MinHeap() // (timestamp, sourceId, log)
+    for batch in batches:
+        for log in batch:
+            heap.insert((log.timestamp, log.sourceId, log))
+    mergedLogs = []
+    while not heap.isEmpty():
+        (ts, sid, log) = heap.extractMin()
+        mergedLogs.append(log)
+    // Send to deduplication before final output
+    dedupedLogs = Deduplicate(mergedLogs, window)
+    OutputSinkWriter(dedupedLogs, window)
+
+// ===== 5. Deduplication Layer =====
+function Deduplicate(logs, window):
+    seen = Set() // Could be Redis for multi-worker setup
+    result = []
+    for log in logs:
+        if not seen.contains(log.uniqueId):
+            result.append(log)
+            seen.add(log.uniqueId)
+    return result
+
+// ===== 6. Output Sink Writer =====
+function OutputSinkWriter(logs, window):
+    // Write to final durable store (S3, HDFS, etc.)
+    for log in logs:
+        writeToStorage(log, window)
+    emitMetrics("output", window, count=logs.length)
+
+// ===== 7. Monitoring & Alerting =====
+function MonitoringService():
+    while true:
+        metrics = collectAllPipelineMetrics()
+        if metrics.lag > threshold or metrics.lateLogs > threshold:
+            alertOnCall(metrics)
+        logMetrics(metrics)
+
+// ===== 8. Admin/API Service (optional) =====
+function AdminService():
+    api:
+        /registerSource(sourceId): addSource(sourceId)
+        /getStatus(): return currentState()
+        /triggerReplay(window): replayWindow(window)
+
