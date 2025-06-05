@@ -6,6 +6,27 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 
 ---
 ## 📜 System Architecture Concepts and Problems
+### May - 25 
+| #️⃣ | 📝 Title | 🔗 Link  | 📖 Description | 🏷️ Status |
+|:---:|:--------|:-------:|:--------------------|:---------:|
+| 1 | **System Architecture : Distributed API Key Revocation Service** | [Read Here](https://levelup.gitconnected.com/system-architecture-distributed-api-key-revocation-service-8e79c4264ce9) | Architect and Build a Distributed API Key Revocation Service| ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **System Architecture : Read-Heavy Service with Regional Cache Replicas**| [Read Here](https://levelup.gitconnected.com/system-architecture-read-heavy-service-with-regional-cache-replicas-d79a02738a6d) |Architect a Read-Heavy Service with Regional Cache Replicas — From Millions of Reads to Zero Stale Data | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 4 | **System Architecture : Cluster-Wide Cache Warm-Up Service** | [Read Here](https://medium.com/gitconnected/system-architecture-cluster-wide-cache-warm-up-service-7b33b353a368) |Architect and designing an Event-Driven, Fault-Tolerant Cache Warm-Up Architecture for Distributed Systems | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 5 |**Scalability Challenge : Scaling Notification Fan-Out to 10 Million Mobile Devices** |Read Here |How to Deliver 10 Million Pushes — Fast, Reliably, and at Scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 6 |**Scalability Challenge: Assigning 100K Unique Timestamps per Second** |Read Here | Designing Globally Ordered Timestamps at Scale: From Bottlenecks to Effortless Scalability| ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 7 |**Scalability Challenge : Fan-out-on-Write**|Read Here |From Single Writes to Millions, Inside the Architecture of Scalable Feed Systems | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 8 | **How a Single Post Reaches Millions - Inside the Math and Architecture of High-Scale Fan-Out**|Read Here |Trace a celebrity post through architectural layer, with actual payloads, per-stage calculations, and concrete latency analysis | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 9 |**Counting Every Click: Architecture Behind Real-Time View Counters at Scale** |Read Here |Turning Millions of User Actions Into Instant, Accurate Live Counters | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 10 | **System Architecture : Auto-Scaling Worker Pools for Event Processing at scale** |Read Here| How Feedback-Driven Elasticity and Queue-Based Decoupling Deliver Consistent SLAs for Millions of Events per Second | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 11 | **System Architecture : Exactly-Once processing for Distributed Workflows** |Read Here |How Idempotency, Orchestration, and Compensation Make distributed Systems Truly Reliable — Even Under Fire | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 12 |**Unlocking Scalability: The Essential Building Blocks of Distributed System Architecture(p1)** |Read Here |A Practical Deep Dive into Queues, Brokers, Topics, Partitions, Consumer Groups, and Offsets | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 13 | **Unlocking Scalability: Advanced Building Blocks for Distributed Systems(p2)**|Read Here |Deep Dive into Backpressure, Dead Letter Queues, and API Reliability | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 14 | **Beyond Resilience: Operational Building Blocks for Distributed Systems (p3)**|Read Here | How Real-Time Alerting, Auto-Scaling, and Self-Healing Make Modern Systems Resilient and Unstoppable| ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+| 15 | **From Log Chaos to Order: Scalable, Reliable Log Merging with Kafka** |Read Here |Designing a Bulletproof Architecture to Aggregate and Streamline Microservices Logs in Real Time | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+
+---
+---
+### April - 25 
 | #️⃣ | 📝 Title | 🔗 Link | 📅 Date | 📖 Description | 🏷️ Status |
 |:---:|:--------|:-------|:-------:|:--------------------|:---------:|
 | 1 | **System Architecture : Client-Side Caching Layer with ETag Validation** | [Read Here](https://scalabrix.medium.com/system-architecture-client-side-caching-layer-with-etag-validation-67b2ce6e3347) | Apr 2, 2025 | *Decentralized caching meets intelligent ETag validation — scale faster, load smarter, fail gracefully.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
