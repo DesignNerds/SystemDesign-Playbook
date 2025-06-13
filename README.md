@@ -1,5 +1,11 @@
 # 📘 System Design Concepts for Interviews
 
+## Welcome to the ScalaBrix Articles Repository!
+
+Explore a growing collection of expert articles covering system design fundamentals, architectural best practices, scalability challenges, and AI-driven innovations.
+Comprehensive tutorials, case studies, and design patterns
+Practical insights for building robust, enterprise-grade systems
+Star and follow to keep learning and collaborating.
 A curated collection of system design articles by [ScalaBrix](https://medium.com/@scalabrix), covering topics essential for mastering system design interviews and building scalable, resilient systems.
 
 ---
