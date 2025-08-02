@@ -13,6 +13,19 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 
 ---
 ## 📜 System Architecture Concepts and Problems
+
+### July - 25 
+| #️⃣ | 📝 Title | 🔗 Link  | 📖 Description | 🏷️ Status |
+|:---:|:--------|:-------:|:--------------------|:---------:|
+| 1 | **DB Design : Multi-Tenant Data Isolation in a Shared Database** | [Read Here](https://medium.com/@scalabrix/db-design-multi-tenant-data-isolation-in-a-shared-database-b313feca233c) | _Scale, isolate, and secure tenant data without blowing up infra cost_| ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Repackaging Microservices into Single-Tenant Monoliths: A Scalable Architecture for Enterprise SaaS** |  [[Read Here]](https://medium.com/gitconnected/repackaging-microservices-into-single-tenant-monoliths-a-scalable-architecture-for-enterprise-saas-22fd168040b6) | _How Isolated Monolith Deployments with Shared Control and Observability Planes Solve Compliance, Performance, and Multi-Tenant Scalability Challenges._ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Distributed Prime Number Finder: Scalable Sieve Architecture for 1 Billion Integers** |  [[Read Here]](https://medium.com/gitconnected/distributed-prime-number-finder-scalable-sieve-architecture-for-1-billion-integers-80a06c0939d4) |_ How to Design a Memory-Efficient, Fault-Tolerant, and Massively Parallel System to Compute Primes in the Billion-Scale Range_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **The Blueprint: Modern System Design for the Agent Era (2025+)** |  [[Read Here]](https://medium.com/gitconnected/the-blueprint-modern-system-design-for-the-agent-era-2025-4655230b193c) | _A Production-Ready Layered Architecture for Deploying Autonomous, Context-Aware Agents at Scale_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 5 | **Rethinking Database Access: Zero-Trust, IAM Tokens, and Least-Privilege at Scale** |  [[Read Here]](https://medium.com/@scalabrix/rethinking-database-access-zero-trust-iam-tokens-and-least-privilege-at-scale-820aee28b2d3) | _How to build a production-ready database access model using Zero Trust principles, IAM integrations, and real-time authorizations_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 6 | **System design Twitter - Scaling Timeline Writes for Fast Reads** |  [[Read Here]](https://medium.com/@scalabrix/system-design-twitter-scaling-timeline-writes-for-fast-reads-19f755abaded) | _Ever wondered how Twitter updates millions of timelines instantly? Dive into Fan-Out-on-Write architecture powering their real-time feeds._ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+
+
 ### June - 25 
 | #️⃣ | 📝 Title | 🔗 Link  | 📖 Description | 🏷️ Status |
 |:---:|:--------|:-------:|:--------------------|:---------:|
