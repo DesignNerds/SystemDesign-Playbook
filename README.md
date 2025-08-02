@@ -43,9 +43,9 @@
 ## 🏗 Fundamentals & Core Building Blocks
 | # | Title | Link | What You’ll Learn | Status |
 |---|-------|------|-------------------|:-----:|
-| 1 | **Unlocking Scalability: Building Blocks (p1)** | Read Here | Queues, Topics, Partitions, Consumer Groups, Offsets | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **Unlocking Scalability: Advanced Blocks (p2)** | Read Here | Backpressure, DLQs, API reliability patterns | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **Beyond Resilience: Operational Blocks (p3)** | Read Here | Alerting, Auto-Scaling, Self-Healing ops | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 1 | **Unlocking Scalability: Building Blocks (p1)** | [Read](https://scalabrix.medium.com/unlocking-scalability-the-essential-building-blocks-of-distributed-system-architecture-p1-283c9eed430c)  | Queues, Topics, Partitions, Consumer Groups, Offsets | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Unlocking Scalability: Advanced Blocks (p2)** | [Read](https://scalabrix.medium.com/unlocking-scalability-advanced-building-blocks-for-distributed-systems-p2-eff6d541f6ef) | Backpressure, DLQs, API reliability patterns | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Beyond Resilience: Operational Blocks (p3)** | [Read](https://medium.com/@scalabrix/beyond-resilience-operational-building-blocks-for-distributed-systems-p3-c000c110e773) | Alerting, Auto-Scaling, Self-Healing ops | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
@@ -73,8 +73,8 @@
 | # | Title | Link | What You’ll Learn | Status |
 |---|-------|------|-------------------|:-----:|
 | 1 | **Designing Robust Asynchronous Operations (p1)** | [Read](https://scalabrix.medium.com/designing-robust-asynchronous-operations-architecture-and-end-to-end-workflow-part-1-eaff509b6991) | End-to-end async flows, retries, backoffs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **Exactly-Once Processing for Distributed Workflows** | Read Here | Idempotency, orchestration & compensation | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **Auto-Scaling Worker Pools for Event Processing** | Read Here | Feedback-driven elasticity, SLA-aware scaling | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Exactly-Once Processing for Distributed Workflows** | [Read](https://medium.com/gitconnected/system-architecture-exactly-once-processing-for-distributed-workflows-4bc4384fc658) | Idempotency, orchestration & compensation | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Auto-Scaling Worker Pools for Event Processing** | [Read](https://medium.com/gitconnected/system-architecture-auto-scaling-worker-pools-for-event-processing-at-scale-7cb3368ac8b9) | Feedback-driven elasticity, SLA-aware scaling | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 4 | **Distributed Task Scheduling Service** | [Read](https://scalabrix.medium.com/system-architecture-distributed-task-scheduling-service-46b293335bb8) | Highly scalable scheduler architecture | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
@@ -93,10 +93,10 @@
 | # | Title | Link | What You’ll Learn | Status |
 |---|-------|------|-------------------|:-----:|
 | 1 | **System Design Twitter: Scaling Timeline Writes** | [Read](https://medium.com/@scalabrix/system-design-twitter-scaling-timeline-writes-for-fast-reads-19f755abaded) | Fan-out-on-write at Twitter scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **Fan-Out-on-Write (Blueprint)** | Read Here | Single write → millions of timelines | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Fan-Out-on-Write (Blueprint)** | [Read](https://medium.com/@scalabrix/system-design-twitter-scaling-timeline-writes-for-fast-reads-19f755abaded) | Single write → millions of timelines | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 3 | **High-Performance Fan-Out-on-Read** | [Read](https://levelup.gitconnected.com/architecting-a-high-performance-fan-out-on-read-system-b0c7a5a58536) | Deadline-bounded aggregation; partial failures | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 4 | **Scaling Notification Fan-Out to 10M Devices** | Read Here | Mobile push, batching, delivery guarantees | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 5 | **How a Single Post Reaches Millions** | Read Here | Per-stage payloads & latency math for fan-out | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Scaling Notification Fan-Out to 10M Devices** | [Read](https://medium.com/gitconnected/scalability-challenge-scaling-notification-fan-out-to-10-million-mobile-devices-2e2b6a967a3c) | Mobile push, batching, delivery guarantees | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 5 | **How a Single Post Reaches Millions** | [Read](https://medium.com/@scalabrix/how-a-single-post-reaches-millions-inside-the-math-and-architecture-of-high-scale-fan-out-d770f307a8bc) | Per-stage payloads & latency math for fan-out | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
