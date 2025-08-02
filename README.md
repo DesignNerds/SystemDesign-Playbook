@@ -6,6 +6,11 @@
 </p>
 
 ---
+# 🚀 System Design Interview Playbook – Master Scalable Architecture, Distributed Systems & Real-World Patterns
+
+## 📚 A Complete System Design Preparation Roadmap  
+Covering **fundamentals**, **scalability strategies**, **database design**, **caching**, and **high-availability architectures** — for both **interview success** and **production excellence**.  
+Learn how to build **scalable systems**, design **fault-tolerant architectures**, and apply **real-world system design patterns** to ace your next **system design interview**.
 
 ## 🗺️ How to Use This Playbook
 > 🛠 **Build from core principles** before diving into advanced systems.  
