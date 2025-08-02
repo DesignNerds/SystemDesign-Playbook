@@ -155,6 +155,10 @@
 
 ---
 
+📢 **Stay Ahead in System Design!**  
+Follow [ScalaBrix on Medium](https://medium.com/@scalabrix) for deep-dive articles, blueprints, and real-world case studies.  
+⭐ **Star this repo** and subscribe to never miss an update on new system design content.
+
 ## 📊 Project Metrics
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=scalabrix.system_design_concepts" alt="Visitor Count" /> 
