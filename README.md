@@ -1,89 +1,161 @@
 # 📘 System Design Concepts for Interviews
+*By [ScalaBrix](https://medium.com/@scalabrix) – Production-grade System Architecture Insights*
 
-## Welcome to the ScalaBrix Articles Repository!
-
-Explore a growing collection of expert articles covering system design fundamentals, architectural best practices, scalability challenges, and AI-driven innovations.
-Comprehensive tutorials, case studies, and design patterns
-Practical insights for building robust, enterprise-grade systems
-Star and follow to keep learning and collaborating.
-A curated collection of system design articles by [ScalaBrix](https://medium.com/@scalabrix), covering topics essential for mastering system design interviews and building scalable, resilient systems.
-
-![ScalaBrix Articles Repository Banner](./SB.png)
----
+<p align="center">
+  <img src="./SB.png" alt="ScalaBrix Articles Repository Banner" width="820">
+</p>
 
 ---
-## 📜 System Architecture Concepts and Problems
 
-### July - 25 
-| #️⃣ | 📝 Title | 🔗 Link  | 📖 Description | 🏷️ Status |
-|:---:|:--------|:-------:|:--------------------|:---------:|
-| 1 | **DB Design : Multi-Tenant Data Isolation in a Shared Database** | [Read Here](https://medium.com/@scalabrix/db-design-multi-tenant-data-isolation-in-a-shared-database-b313feca233c) | _Scale, isolate, and secure tenant data without blowing up infra cost_| ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **Repackaging Microservices into Single-Tenant Monoliths: A Scalable Architecture for Enterprise SaaS** |  [[Read Here]](https://medium.com/gitconnected/repackaging-microservices-into-single-tenant-monoliths-a-scalable-architecture-for-enterprise-saas-22fd168040b6) | _How Isolated Monolith Deployments with Shared Control and Observability Planes Solve Compliance, Performance, and Multi-Tenant Scalability Challenges._ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **Distributed Prime Number Finder: Scalable Sieve Architecture for 1 Billion Integers** |  [[Read Here]](https://medium.com/gitconnected/distributed-prime-number-finder-scalable-sieve-architecture-for-1-billion-integers-80a06c0939d4) |_ How to Design a Memory-Efficient, Fault-Tolerant, and Massively Parallel System to Compute Primes in the Billion-Scale Range_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 4 | **The Blueprint: Modern System Design for the Agent Era (2025+)** |  [[Read Here]](https://medium.com/gitconnected/the-blueprint-modern-system-design-for-the-agent-era-2025-4655230b193c) | _A Production-Ready Layered Architecture for Deploying Autonomous, Context-Aware Agents at Scale_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 5 | **Rethinking Database Access: Zero-Trust, IAM Tokens, and Least-Privilege at Scale** |  [[Read Here]](https://medium.com/@scalabrix/rethinking-database-access-zero-trust-iam-tokens-and-least-privilege-at-scale-820aee28b2d3) | _How to build a production-ready database access model using Zero Trust principles, IAM integrations, and real-time authorizations_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 6 | **System design Twitter - Scaling Timeline Writes for Fast Reads** |  [[Read Here]](https://medium.com/@scalabrix/system-design-twitter-scaling-timeline-writes-for-fast-reads-19f755abaded) | _Ever wondered how Twitter updates millions of timelines instantly? Dive into Fan-Out-on-Write architecture powering their real-time feeds._ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+## 🗺️ How to Use This Playbook
+> 🛠 **Build from core principles** before diving into advanced systems.  
+> 📈 **Progress logically** from fundamentals → high-scale architectures → specialized patterns.  
+> 🎯 **Focus your prep** like an actual interview roadmap.  
 
+**Your Journey:**  
+1️⃣ **Foundation Layer** – Core building blocks & fundamentals  
+2️⃣ **Data Mastery** – Databases, caching & async workflows  
+3️⃣ **Scale & Reliability** – High-QPS, load balancing, fault tolerance  
+4️⃣ **Domain Expertise** – Real-world product architectures & case studies  
 
-
-### June - 25 
-| #️⃣ | 📝 Title | 🔗 Link  | 📖 Description | 🏷️ Status |
-|:---:|:--------|:-------:|:--------------------|:---------:|
-| 1 | **Designing Robust Asynchronous Operations: Architecture and End-to-End Workflow (Part 1)** | [Read Here](https://scalabrix.medium.com/designing-robust-asynchronous-operations-architecture-and-end-to-end-workflow-part-1-eaff509b6991) | _A Deep Dive into Modern Async System Design: From Client Requests to Scalable, Reliable Background Processing_| ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **Distributed Top-K IP Query at Web-Scale** |  [[Read Here]](https://levelup.gitconnected.com/distributed-top-k-ip-query-at-web-scale-b867c3b9e358) | _How to Efficiently Identify the Most Frequent IPs from 500 Million Logs Using Modern Distributed Systems_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **Architecting Distributed Query Systems for Scale** |  [[Read Here]](https://levelup.gitconnected.com/architecting-distributed-query-systems-for-scale-ae0e9e251a71) |_ A production-grade walkthrough of building a scalable, fault-tolerant, cloud-native architecture for distributed searching, filtering, and aggregation over massive datasets_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 4 | **Distributed Anomaly Count: Detecting API Spike Surges at Scale** |  [[Read Here]](https://levelup.gitconnected.com/distributed-anomaly-count-detecting-api-spike-surges-at-scale-3e25062fd0ae) | _A Fault-Tolerant, Layered Architecture for Tracking Traffic Spikes Across Load-Balanced API Servers_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 5 | **Architecting a High-Performance Fan-Out on Read System** |  [[Read Here]](https://levelup.gitconnected.com/architecting-a-high-performance-fan-out-on-read-system-b0c7a5a58536) | _From Multi-Service Concurrency to Deadline Enforcement — A Complete Blueprint for Latency-Bounded, Partial-Failure-Resilient Aggregators_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 6 | **System Architecture : Distributed Logging Systems at Scale (p1)** |  [[Read Here]](https://scalabrix.medium.com/system-architecture-distributed-logging-systems-at-scale-p1-0d5d3dd4e436) | _A deep dive into designing a production-grade, multi-tenant, cost-efficient, and query-optimized logging architecture for modern distributed systems_ | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-
-
-### May - 25 
-| #️⃣ | 📝 Title | 🔗 Link  | 📖 Description | 🏷️ Status |
-|:---:|:--------|:-------:|:--------------------|:---------:|
-| 1 | **System Architecture : Distributed API Key Revocation Service** | [Read Here](https://levelup.gitconnected.com/system-architecture-distributed-api-key-revocation-service-8e79c4264ce9) | Architect and Build a Distributed API Key Revocation Service| ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **System Architecture : Read-Heavy Service with Regional Cache Replicas**| [Read Here](https://levelup.gitconnected.com/system-architecture-read-heavy-service-with-regional-cache-replicas-d79a02738a6d) |Architect a Read-Heavy Service with Regional Cache Replicas — From Millions of Reads to Zero Stale Data | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 3 | **System Architecture : Cluster-Wide Cache Warm-Up Service** | [Read Here](https://medium.com/gitconnected/system-architecture-cluster-wide-cache-warm-up-service-7b33b353a368) |Architect and designing an Event-Driven, Fault-Tolerant Cache Warm-Up Architecture for Distributed Systems | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 4 |**Scalability Challenge : Scaling Notification Fan-Out to 10 Million Mobile Devices** |Read Here |How to Deliver 10 Million Pushes — Fast, Reliably, and at Scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 5 |**Scalability Challenge: Assigning 100K Unique Timestamps per Second** |Read Here | Designing Globally Ordered Timestamps at Scale: From Bottlenecks to Effortless Scalability| ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 6 |**Scalability Challenge : Fan-out-on-Write**|Read Here |From Single Writes to Millions, Inside the Architecture of Scalable Feed Systems | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 7 | **How a Single Post Reaches Millions - Inside the Math and Architecture of High-Scale Fan-Out**|Read Here |Trace a celebrity post through architectural layer, with actual payloads, per-stage calculations, and concrete latency analysis | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 8 |**Counting Every Click: Architecture Behind Real-Time View Counters at Scale** |Read Here |Turning Millions of User Actions Into Instant, Accurate Live Counters | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 9 | **System Architecture : Auto-Scaling Worker Pools for Event Processing at scale** |Read Here| How Feedback-Driven Elasticity and Queue-Based Decoupling Deliver Consistent SLAs for Millions of Events per Second | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 10 | **System Architecture : Exactly-Once processing for Distributed Workflows** |Read Here |How Idempotency, Orchestration, and Compensation Make distributed Systems Truly Reliable — Even Under Fire | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 11 |**Unlocking Scalability: The Essential Building Blocks of Distributed System Architecture(p1)** |Read Here |A Practical Deep Dive into Queues, Brokers, Topics, Partitions, Consumer Groups, and Offsets | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 12 | **Unlocking Scalability: Advanced Building Blocks for Distributed Systems(p2)**|Read Here |Deep Dive into Backpressure, Dead Letter Queues, and API Reliability | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 13 | **Beyond Resilience: Operational Building Blocks for Distributed Systems (p3)**|Read Here | How Real-Time Alerting, Auto-Scaling, and Self-Healing Make Modern Systems Resilient and Unstoppable| ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
-| 14 | **From Log Chaos to Order: Scalable, Reliable Log Merging with Kafka** |Read Here |Designing a Bulletproof Architecture to Aggregate and Streamline Microservices Logs in Real Time | ![Published](https://img.shields.io/badge/Status-Published-brightgreen)|
+> Each article includes **real-world trade-offs**, **scaling math**, and **production blueprints**.
 
 ---
----
-### April - 25 
-| #️⃣ | 📝 Title | 🔗 Link | 📅 Date | 📖 Description | 🏷️ Status |
-|:---:|:--------|:-------|:-------:|:--------------------|:---------:|
-| 1 | **System Architecture : Client-Side Caching Layer with ETag Validation** | [Read Here](https://scalabrix.medium.com/system-architecture-client-side-caching-layer-with-etag-validation-67b2ce6e3347) | Apr 2, 2025 | *Decentralized caching meets intelligent ETag validation — scale faster, load smarter, fail gracefully.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **System Architecture : Distributed Cache Invalidation Service** | [Read Here](https://levelup.gitconnected.com/system-architecture-distributed-cache-invalidation-service-cab59eeeee15) | Apr 3, 2025 | *Design and Architect a Distributed Cache Invalidation Service at Scale* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **System architecture : Idempotency in Payment Transactions** | [Read Here](https://levelup.gitconnected.com/system-architecture-idempotency-in-payment-transactions-1d7888480648) | Apr 4, 2025 | *Design a Scalable and Production-Ready Idempotent Payment Processing System to Prevent Double Transactions Due to Retries.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 4 | **System architecture : Enterprise-Grade Load Balancing Architecture** | [Read Here](https://levelup.gitconnected.com/system-architecture-enterprise-grade-load-balancing-architecture-9dd774e508aa) | Apr 5, 2025 | *Designing Multi-Layered Load Balancers with Failover, Autoscaling, and Observability* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 5 | **System architecture : Handling Backpressure in a Cloud-Based Video Streaming Service** | [Read Here](https://scalabrix.medium.com/system-architecture-handling-backpressure-in-a-cloud-based-video-streaming-service-338c554657e7?source=list---------4-------7b12980141be----------------------------) | Apr 6, 2025 | *Architecting High-Performance Video Platforms That Never Crash Under Load.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 6 | **System architecture : High Throughput Reads & Writes in Databases (p2)** | [Read Here](https://scalabrix.medium.com/system-architecture-high-throughput-reads-writes-in-databases-p2-44f92c2f383d?source=list---------5-------7b12980141be----------------------------) | Apr 7, 2025 | *How CQRS Solves 1M QPS Challenge for DB read/write along with failover and resiliency strategies.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 7 | **System architecture : High Throughput Reads & Writes in Databases (p1)s** | [Read Here](https://scalabrix.medium.com/system-architecture-deep-dive-into-1m-rps-api-design-fa5b5a01e6f4?source=list---------7-------7b12980141be----------------------------) | Apr 8, 2025 | *How Read/Write Separation Solves 1M QPS Challenge for DB read/write.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 8 | **System Architecture : Deep Dive into 1M RPS API Design** | [Read Here](https://scalabrix.medium.com/system-architecture-deep-dive-into-1m-rps-api-design-fa5b5a01e6f4?source=list---------7-------7b12980141be----------------------------) | Apr 9, 2025 | *Technology-agnostic design for high-throughput systems, ensuring low latency, high availability, and cost efficiency.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 9 | **System architecture: On-Demand Code Execution System (Part 2)** | [Read Here](https://scalabrix.medium.com/system-architecture-on-demand-code-execution-system-part-2-0ada8f167da4?source=list---------8-------7b12980141be----------------------------) | Apr 10, 2025 | *Distributed, event-driven, microservices-based architecture for On demand code execution system Job Retry, Secure execution, Failure recovery workflows*| ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 10 | **System architecture: On-Demand Code Execution System (Part 1)** | [Read Here](https://scalabrix.medium.com/system-architecture-on-demand-code-execution-system-part-1-95eada80ec16?source=list---------9-------7b12980141be----------------------------) | Apr 11, 2025 | *Distributed, event-driven, microservices-based architecture for On demand code execution system.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 11 | **System architecture: Coding Contest & Leaderboard** | [Read Here](https://scalabrix.medium.com/system-architecture-coding-contest-leaderboard-6819964459e0?source=list---------10-------7b12980141be----------------------------) | Apr 12, 2025 | *Distributed microservices based architecture for handling thousands of concurrent participants in a coding contest and leaderboard.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 12 | **System Architecture: Distributed task scheduling service** | [Read Here](https://scalabrix.medium.com/system-architecture-distributed-task-scheduling-service-46b293335bb8?source=list---------11-------7b12980141be----------------------------) | Apr 13, 2025 | *Microservices/event-driven worker-based architecture of highly scalable distributed task scheduling service.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 13 | **System architecture : Content Aggregator (e.g., News/Articles) platform** | [Read Here](https://scalabrix.medium.com/system-architecture-content-aggregator-e-g-news-articles-platform-162e5f444507?source=list---------13-------7b12980141be----------------------------) | Apr 14, 2025 | *Microservices-Based Event-Driven Hybrid Architecture of Content Aggregator platform* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 14 | **System architecture : Ticket Booking System** | [Read Here](https://scalabrix.medium.com/system-architecture-ticket-booking-system-080b7df4a550?source=list---------14-------7b12980141be----------------------------) | Apr 15, 2025 | *Architecture for highly Scalable and Resilient Ticket Booking System.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 15 | **System architecture : Online Forum (Part 1)** | [Read Here](https://scalabrix.medium.com/system-architecture-online-forum-part-1-6f888c967581?source=list---------15-------7b12980141be----------------------------) | Apr 16, 2025 | *Distributed Microservices Architecture with Real-Time and Caching Layers for Online Forum.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 16 | **System Architecture : Payment Wallet** | [Read Here](https://scalabrix.medium.com/system-architecture-payment-wallet-g-pay-5b7901edee81?source=list---------16-------7b12980141be----------------------------) | Apr 17, 2025 | *TMicroservice based architectural design for Payment wallet.* | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+## 📚 Table of Contents
+- [🏗 Fundamentals & Core Building Blocks](#-fundamentals--core-building-blocks)
+- [🗄 Database Design & High-Throughput Patterns](#-database-design--highthroughput-patterns)
+- [⚡ Caching, Invalidation & Read Path Acceleration](#-caching-invalidation--read-path-acceleration)
+- [🧵 Async, Orchestration & Worker Architectures](#-async-orchestration--worker-architectures)
+- [🛰 Distributed Query, Logging & Analytics](#-distributed-query-logging--analytics)
+- [📣 Feeds, Fan-Out & Notifications](#-feeds-fanout--notifications)
+- [🛡 Security, Zero-Trust & Governance](#-security-zerotrust--governance)
+- [📶 Load Balancing, Backpressure & SLOs](#-load-balancing-backpressure--slos)
+- [🧭 Real-Time Detection, Counters & Monitoring](#-realtime-detection-counters--monitoring)
+- [🧪 Code Execution, Contests & Scheduling](#-code-execution-contests--scheduling)
+- [🏛 Domain Case Studies (Product Architectures)](#-domain-case-studies-product-architectures)
+- [🤖 Agent Era & Next-Gen Architectures](#-agent-era--nextgen-architectures)
+- [📊 Project Metrics](#-project-metrics)
+- [🤝 Contributing](#-contributing)
 
 ---
+
+## 🏗 Fundamentals & Core Building Blocks
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Unlocking Scalability: Building Blocks (p1)** | Read Here | Queues, Topics, Partitions, Consumer Groups, Offsets | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Unlocking Scalability: Advanced Blocks (p2)** | Read Here | Backpressure, DLQs, API reliability patterns | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Beyond Resilience: Operational Blocks (p3)** | Read Here | Alerting, Auto-Scaling, Self-Healing ops | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
 ---
 
+## 🗄 Database Design & High-Throughput Patterns
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **DB Design: Multi-Tenant Data Isolation** | [Read](https://medium.com/@scalabrix/db-design-multi-tenant-data-isolation-in-a-shared-database-b313feca233c) | Tenant isolation in shared DBs without cost explosion | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Rethinking Database Access: Zero-Trust & IAM** | [Read](https://medium.com/@scalabrix/rethinking-database-access-zero-trust-iam-tokens-and-least-privilege-at-scale-820aee28b2d3) | IAM tokens, least privilege, real-time auth to DB | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **High Throughput Reads/Writes (Read-Write Separation)** | [Read](https://scalabrix.medium.com/system-architecture-deep-dive-into-1m-rps-api-design-fa5b5a01e6f4) | Split read vs write paths to hit 1M QPS | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **High Throughput Reads/Writes (CQRS)** | [Read](https://scalabrix.medium.com/system-architecture-high-throughput-reads-writes-in-databases-p2-44f92c2f383d) | CQRS patterns, failover & resiliency for DB scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
+---
+
+## ⚡ Caching, Invalidation & Read Path Acceleration
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Distributed Cache Invalidation Service** | [Read](https://levelup.gitconnected.com/system-architecture-distributed-cache-invalidation-service-cab59eeeee15) | Consistent invalidation across distributed nodes | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Client-Side Caching with ETag Validation** | [Read](https://scalabrix.medium.com/system-architecture-client-side-caching-layer-with-etag-validation-67b2ce6e3347) | Save server load with smart validation | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Cluster-Wide Cache Warm-Up Service** | [Read](https://medium.com/gitconnected/system-architecture-cluster-wide-cache-warm-up-service-7b33b353a368) | Pre-warming strategies for cold-start & scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Read-Heavy Service w/ Regional Cache Replicas** | [Read](https://levelup.gitconnected.com/system-architecture-read-heavy-service-with-regional-cache-replicas-d79a02738a6d) | Geo-replicated read path, low latency design | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🧵 Async, Orchestration & Worker Architectures
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Designing Robust Asynchronous Operations (p1)** | [Read](https://scalabrix.medium.com/designing-robust-asynchronous-operations-architecture-and-end-to-end-workflow-part-1-eaff509b6991) | End-to-end async flows, retries, backoffs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Exactly-Once Processing for Distributed Workflows** | Read Here | Idempotency, orchestration & compensation | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Auto-Scaling Worker Pools for Event Processing** | Read Here | Feedback-driven elasticity, SLA-aware scaling | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Distributed Task Scheduling Service** | [Read](https://scalabrix.medium.com/system-architecture-distributed-task-scheduling-service-46b293335bb8) | Highly scalable scheduler architecture | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🛰 Distributed Query, Logging & Analytics
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Architecting Distributed Query Systems for Scale** | [Read](https://levelup.gitconnected.com/architecting-distributed-query-systems-for-scale-ae0e9e251a71) | Search/filter/aggregate at massive scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Distributed Top-K IP Query at Web-Scale** | [Read](https://levelup.gitconnected.com/distributed-top-k-ip-query-at-web-scale-b867c3b9e358) | Find heavy hitters across 500M+ logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **From Log Chaos to Order (Kafka Log Merging)** | Read Here | Aggregating & streaming microservice logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Distributed Logging Systems at Scale (p1)** | [Read](https://scalabrix.medium.com/system-architecture-distributed-logging-systems-at-scale-p1-0d5d3dd4e436) | Multi-tenant, cost-efficient log platform | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 📣 Feeds, Fan-Out & Notifications
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **System Design Twitter: Scaling Timeline Writes** | [Read](https://medium.com/@scalabrix/system-design-twitter-scaling-timeline-writes-for-fast-reads-19f755abaded) | Fan-out-on-write at Twitter scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Fan-Out-on-Write (Blueprint)** | Read Here | Single write → millions of timelines | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **High-Performance Fan-Out-on-Read** | [Read](https://levelup.gitconnected.com/architecting-a-high-performance-fan-out-on-read-system-b0c7a5a58536) | Deadline-bounded aggregation; partial failures | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Scaling Notification Fan-Out to 10M Devices** | Read Here | Mobile push, batching, delivery guarantees | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 5 | **How a Single Post Reaches Millions** | Read Here | Per-stage payloads & latency math for fan-out | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🛡 Security, Zero-Trust & Governance
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Rethinking DB Access: Zero-Trust & IAM Tokens** | [Read](https://medium.com/@scalabrix/rethinking-database-access-zero-trust-iam-tokens-and-least-privilege-at-scale-820aee28b2d3) | Live, least-privilege access to data | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Distributed API Key Revocation Service** | [Read](https://levelup.gitconnected.com/system-architecture-distributed-api-key-revocation-service-8e79c4264ce9) | Instant key revocation across infra | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 📶 Load Balancing, Backpressure & SLOs
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Enterprise-Grade Load Balancing Architecture** | [Read](https://levelup.gitconnected.com/system-architecture-enterprise-grade-load-balancing-architecture-9dd774e508aa) | Multi-layer LBs, failover, autoscaling, obs. | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Handling Backpressure in Video Streaming** | [Read](https://scalabrix.medium.com/system-architecture-handling-backpressure-in-a-cloud-based-video-streaming-service-338c554657e7) | Smoothing producers/consumers under load | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Deep Dive into 1M RPS API Design** | [Read](https://scalabrix.medium.com/system-architecture-deep-dive-into-1m-rps-api-design-fa5b5a01e6f4) | Throughput, latency, HA & cost trade-offs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🧭 Real-Time Detection, Counters & Monitoring
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Distributed Anomaly Count: Detecting API Spikes** | [Read](https://levelup.gitconnected.com/distributed-anomaly-count-detecting-api-spike-surges-at-scale-3e25062fd0ae) | Multi-node spike/traffic surge detection | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Counting Every Click: Real-Time View Counters** | Read Here | Live counters with accuracy & low latency | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Assigning 100K Unique Timestamps/sec** | Read Here | Global ordering & clock contention control | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🧪 Code Execution, Contests & Scheduling
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **On-Demand Code Execution System (Part 1)** | [Read](https://scalabrix.medium.com/system-architecture-on-demand-code-execution-system-part-1-95eada80ec16) | Event-driven workers, sandboxing, isolation | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **On-Demand Code Execution System (Part 2)** | [Read](https://scalabrix.medium.com/system-architecture-on-demand-code-execution-system-part-2-0ada8f167da4) | Secure execution, retries, failure workflows | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Coding Contest & Leaderboard** | [Read](https://scalabrix.medium.com/system-architecture-coding-contest-leaderboard-6819964459e0) | Concurrency at scale, ranking pipelines | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Distributed Task Scheduling Service** | [Read](https://scalabrix.medium.com/system-architecture-distributed-task-scheduling-service-46b293335bb8) | Time-based & event-driven scheduling at scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🏛 Domain Case Studies (Product Architectures)
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **Payment Wallet** | [Read](https://scalabrix.medium.com/system-architecture-payment-wallet-g-pay-5b7901edee81) | Microservice design for wallet/payments | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Ticket Booking System** | [Read](https://scalabrix.medium.com/system-architecture-ticket-booking-system-080b7df4a550) | Inventory, concurrency & seat locking | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Content Aggregator (News/Articles)** | [Read](https://scalabrix.medium.com/system-architecture-content-aggregator-e-g-news-articles-platform-162e5f444507) | Crawling, indexing, ranking, feeds | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Online Forum (Part 1)** | [Read](https://scalabrix.medium.com/system-architecture-online-forum-part-1-6f888c967581) | Real-time, caching & moderation flows | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 🤖 Agent Era & Next-Gen Architectures
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1 | **The Blueprint: Modern System Design for the Agent Era (2025+)** | [Read](https://medium.com/gitconnected/the-blueprint-modern-system-design-for-the-agent-era-2025-4655230b193c) | Layered, production-ready agent platform | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Repackaging Microservices into Single-Tenant Monoliths** | [Read](https://medium.com/gitconnected/repackaging-microservices-into-single-tenant-monoliths-a-scalable-architecture-for-enterprise-saas-22fd168040b6) | Isolation + shared control/observability planes | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Distributed Prime Number Finder** | [Read](https://medium.com/gitconnected/distributed-prime-number-finder-scalable-sieve-architecture-for-1-billion-integers-80a06c0939d4) | Billion-scale parallel compute blueprint | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
 
 ## 📊 Project Metrics
-
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=scalabrix.system_design_concepts" alt="Visitor Count" /> 
   <img src="https://img.shields.io/github/stars/DesignNerds/SystemDesign-Playbook?style=social" alt="GitHub Stars" />
@@ -93,5 +165,10 @@ A curated collection of system design articles by [ScalaBrix](https://medium.com
 
 ---
 
-> 🚀 *Thank you for visiting! Feel free to star ⭐ the repo, fork 🍴 it, or clap 👏 on Medium if you found this useful!*
+## 🤝 Contributing
+- 🖊 Add case studies & architectural diagrams  
+- 🛠 Improve patterns with trade-offs & benchmarks  
+- ⭐ Star, 🍴 Fork, and 👏 Clap to support the project  
+
+> 🚀 *Master the patterns. Ace the interview. Ship production systems with confidence.*
 
