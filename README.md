@@ -84,7 +84,7 @@
 |---|-------|------|-------------------|:-----:|
 | 1 | **Architecting Distributed Query Systems for Scale** | [Read](https://levelup.gitconnected.com/architecting-distributed-query-systems-for-scale-ae0e9e251a71) | Search/filter/aggregate at massive scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 2 | **Distributed Top-K IP Query at Web-Scale** | [Read](https://levelup.gitconnected.com/distributed-top-k-ip-query-at-web-scale-b867c3b9e358) | Find heavy hitters across 500M+ logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **From Log Chaos to Order (Kafka Log Merging)** | Read Here | Aggregating & streaming microservice logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **From Log Chaos to Order (Kafka Log Merging)** | [Read](https://medium.com/gitconnected/from-log-chaos-to-order-scalable-reliable-log-merging-with-kafka-c6e4fdb1a38c) | Aggregating & streaming microservice logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 4 | **Distributed Logging Systems at Scale (p1)** | [Read](https://scalabrix.medium.com/system-architecture-distributed-logging-systems-at-scale-p1-0d5d3dd4e436) | Multi-tenant, cost-efficient log platform | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
@@ -121,8 +121,8 @@
 | # | Title | Link | What You’ll Learn | Status |
 |---|-------|------|-------------------|:-----:|
 | 1 | **Distributed Anomaly Count: Detecting API Spikes** | [Read](https://levelup.gitconnected.com/distributed-anomaly-count-detecting-api-spike-surges-at-scale-3e25062fd0ae) | Multi-node spike/traffic surge detection | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 2 | **Counting Every Click: Real-Time View Counters** | Read Here | Live counters with accuracy & low latency | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
-| 3 | **Assigning 100K Unique Timestamps/sec** | Read Here | Global ordering & clock contention control | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 2 | **Counting Every Click: Real-Time View Counters** | [Read](https://medium.com/@scalabrix/counting-every-click-architecture-behind-real-time-view-counters-at-scale-cd1d1f0261d6) | Live counters with accuracy & low latency | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 3 | **Assigning 100K Unique Timestamps/sec** | [Read](https://medium.com/gitconnected/scalability-challenge-timestamp-assignment-service-07187e130464) | Global ordering & clock contention control | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
