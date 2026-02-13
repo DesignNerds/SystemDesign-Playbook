@@ -73,6 +73,8 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 | 2 | **Client-Side Caching with ETag Validation** | [Read](https://scalabrix.medium.com/system-architecture-client-side-caching-layer-with-etag-validation-67b2ce6e3347) | Save server load with smart validation | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 3 | **Cluster-Wide Cache Warm-Up Service** | [Read](https://medium.com/gitconnected/system-architecture-cluster-wide-cache-warm-up-service-7b33b353a368) | Pre-warming strategies for cold-start & scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 4 | **Read-Heavy Service w/ Regional Cache Replicas** | [Read](https://levelup.gitconnected.com/system-architecture-read-heavy-service-with-regional-cache-replicas-d79a02738a6d) | Geo-replicated read path, low latency design | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 5 | **Feature Flag Control Plane for 1000+ Tenants** | [Read](https://medium.com/gitconnected/hld-feature-flag-control-plane-for-1000-tenants-fa963bcbab05) | How to design a production-grade, multi-tenant control plane with cache-first lookups, immutable versioning, and event-driven rollouts. | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
 
 ---
 
@@ -105,6 +107,7 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 | 3 | **High-Performance Fan-Out-on-Read** | [Read](https://levelup.gitconnected.com/architecting-a-high-performance-fan-out-on-read-system-b0c7a5a58536) | Deadline-bounded aggregation; partial failures | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 4 | **Scaling Notification Fan-Out to 10M Devices** | [Read](https://medium.com/gitconnected/scalability-challenge-scaling-notification-fan-out-to-10-million-mobile-devices-2e2b6a967a3c) | Mobile push, batching, delivery guarantees | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 5 | **How a Single Post Reaches Millions** | [Read](https://medium.com/@scalabrix/how-a-single-post-reaches-millions-inside-the-math-and-architecture-of-high-scale-fan-out-d770f307a8bc) | Per-stage payloads & latency math for fan-out | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 6 | **Low-Latency Invalidation Fanout Service for Hot Cache Keys** | [Read](https://medium.com/gitconnected/system-architecture-low-latency-invalidation-fanout-service-for-hot-cache-keys-eaebc8120add) |  Architecture that detects hot keys, routes invalidation events across 10K+ cache nodes in under 10ms. | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
