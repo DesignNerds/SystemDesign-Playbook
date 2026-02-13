@@ -51,6 +51,7 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 | 1 | **Unlocking Scalability: Building Blocks (p1)** | [Read](https://scalabrix.medium.com/unlocking-scalability-the-essential-building-blocks-of-distributed-system-architecture-p1-283c9eed430c)  | Queues, Topics, Partitions, Consumer Groups, Offsets | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 2 | **Unlocking Scalability: Advanced Blocks (p2)** | [Read](https://scalabrix.medium.com/unlocking-scalability-advanced-building-blocks-for-distributed-systems-p2-eff6d541f6ef) | Backpressure, DLQs, API reliability patterns | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 3 | **Beyond Resilience: Operational Blocks (p3)** | [Read](https://medium.com/@scalabrix/beyond-resilience-operational-building-blocks-for-distributed-systems-p3-c000c110e773) | Alerting, Auto-Scaling, Self-Healing ops | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 4 | **Distributed Queue vs Pub/Sub, Choosing the Right Pattern for Scalable Systems** | [Read](https://medium.com/gitconnected/hld-distributed-queue-vs-pub-sub-choosing-the-right-pattern-for-scalable-systems-a3d8a1562cae) | Workload Distribution vs Event Fanout — Cracking the Core Trade-Off in Modern Distributed Architectures | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
