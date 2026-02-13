@@ -61,6 +61,7 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 | 2 | **Rethinking Database Access: Zero-Trust & IAM** | [Read](https://medium.com/@scalabrix/rethinking-database-access-zero-trust-iam-tokens-and-least-privilege-at-scale-820aee28b2d3) | IAM tokens, least privilege, real-time auth to DB | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 3 | **High Throughput Reads/Writes (Read-Write Separation)** | [Read](https://scalabrix.medium.com/system-architecture-deep-dive-into-1m-rps-api-design-fa5b5a01e6f4) | Split read vs write paths to hit 1M QPS | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 4 | **High Throughput Reads/Writes (CQRS)** | [Read](https://scalabrix.medium.com/system-architecture-high-throughput-reads-writes-in-databases-p2-44f92c2f383d) | CQRS patterns, failover & resiliency for DB scale | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 5 | **Hot-Key Bucketing: The Hidden Architecture That Lets Distributed Systems Survive Viral Traffic** | [Read](https://medium.com/gitconnected/hot-key-bucketing-the-hidden-architecture-that-lets-distributed-systems-survive-viral-traffic-4ced0f2d8fcf) | How breaking one overloaded key into many bucketed keys transforms a hotspot into a horizontally scalable, fault-tolerant workload | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
