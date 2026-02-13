@@ -15,7 +15,22 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 ## 🗺️ How to Use This Playbook
 > 🛠 **Build from core principles** before diving into advanced systems.  
 > 📈 **Progress logically** from fundamentals → high-scale architectures → specialized patterns.  
-> 🎯 **Focus your prep** like an actual interview roadmap.  
+> 🎯 **Focus your prep** like an actual interview roadmap.
+
+## Target Audience:
+> **Senior Engineers preparing for Staff/Principal roles**
+> **Architects designing large-scale distributed systems**
+> **Engineers preparing for advanced system design interviews**
+
+## Covered Domains
+- Distributed System Patterns
+- Scalability Engineering
+- High Throughput System Design
+- Consistency Models
+- Reliability & Fault Tolerance
+- Observability & Monitoring
+- Real-World Case Studies
+
 
 **Your Journey:**  
 1️⃣ **Foundation Layer** – Core building blocks & fundamentals  
