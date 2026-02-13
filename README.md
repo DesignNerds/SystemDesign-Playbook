@@ -91,6 +91,7 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 | 2 | **Distributed Top-K IP Query at Web-Scale** | [Read](https://levelup.gitconnected.com/distributed-top-k-ip-query-at-web-scale-b867c3b9e358) | Find heavy hitters across 500M+ logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 3 | **From Log Chaos to Order (Kafka Log Merging)** | [Read](https://medium.com/gitconnected/from-log-chaos-to-order-scalable-reliable-log-merging-with-kafka-c6e4fdb1a38c) | Aggregating & streaming microservice logs | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 4 | **Distributed Logging Systems at Scale (p1)** | [Read](https://scalabrix.medium.com/system-architecture-distributed-logging-systems-at-scale-p1-0d5d3dd4e436) | Multi-tenant, cost-efficient log platform | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+| 5 | **Handling 1M Writes/sec with a Log-Based Ingestion Architecture** | [Read](https://levelup.gitconnected.com/handling-1m-writes-sec-with-a-log-based-ingestion-architecture-6d55fece2238) | Why traditional databases break under write pressure — and how decoupled, async ingestion systems make hyperscale writes reliable, resilient, and fast. | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
