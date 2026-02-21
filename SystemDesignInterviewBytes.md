@@ -9,3 +9,10 @@
 - Replica lag introduces stale reads. For read-after-write sensitive paths like issue updates, Implement session stickiness or lag-aware routing so immediate reads go to primary if lag exceeds threshold.
 - Split brain is more dangerous than downtime. Ensure leader election requires majority quorum, and isolated nodes are fenced off to prevent dual-write divergence.
 - Hot shards create partial degradation. Monitor per-shard QPS and rebalance heavy tenants using virtual shards, enabling traffic redistribution without full resharding.
+- Classify database failures into leader failures, replication failures, partition failures, load imbalance failures, and data integrity failures.
+
+- For leader failures, evaluate data loss window and quorum configuration.
+- For replication failures, design lag-aware read routing.
+- For partition scenarios, enforce majority-based leader election to prevent split brain.
+- For load imbalance, monitor shard-level metrics and enable dynamic rebalancing.
+- And for correctness failures, implement invariants validation and reconciliation jobs.
