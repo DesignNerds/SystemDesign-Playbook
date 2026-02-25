@@ -4,6 +4,7 @@
 - Sharding increases write throughput by distributing write load across independent database nodes, while replication increases read throughput by adding more nodes that can serve read queries concurrently.
 - Sharding increases write throughput by parallelizing write streams across independent storage engines, removing single-node CPU, WAL, and lock bottlenecks — provided the partition key evenly distributes write load.
 - Replication increases read throughput by horizontally scaling read capacity via additional serving nodes, but does not improve write throughput and may reduce it under synchronous durability guarantees.
+- In a sharded system, writes go to the primary node of the responsible shard. Reads go to that shard as well, but if replication is enabled, reads are typically offloaded to replicas to increase read throughput while preserving write capacity on the primary.
 
 ## Failure modes
 ### DB Failure modes
