@@ -1,9 +1,8 @@
 # 📘 🏆 System Design Excellence – Ace Interviews & Build Enterprise Systems
 *By [ScalaBrix](https://medium.com/@scalabrix) – Production-grade System Architecture Insights*
 
-<p align="center">
-  <img src="./SB.png" alt="ScalaBrix Articles Repository Banner" width="820">
-</p>
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/98466ea0-fc12-425b-88f6-478cd2533cdf" />
+
 
 ---
 # 🚀 System Design Interview Playbook – Master Scalable Architecture, Distributed Systems & Real-World Patterns
