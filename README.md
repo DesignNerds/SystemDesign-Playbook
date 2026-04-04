@@ -54,6 +54,7 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 - [🧪 Code Execution, Contests & Scheduling](#-code-execution-contests--scheduling)
 - [🏛 Domain Case Studies (Product Architectures)](#-domain-case-studies-product-architectures)
 - [🤖 Agent Era & Next-Gen Architectures](#-agent-era--nextgen-architectures)
+- [📊 Monitoring & Alerting (SRE Fundamentals)](#-monitoring--alerting-sre-fundamentals)
 - [📊 Project Metrics](#-project-metrics)
 - [🤝 Contributing](#-contributing)
 
@@ -179,6 +180,14 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 | 1 | **The Blueprint: Modern System Design for the Agent Era (2025+)** | [Read](https://medium.com/gitconnected/the-blueprint-modern-system-design-for-the-agent-era-2025-4655230b193c) | Layered, production-ready agent platform | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 2 | **Repackaging Microservices into Single-Tenant Monoliths** | [Read](https://medium.com/gitconnected/repackaging-microservices-into-single-tenant-monoliths-a-scalable-architecture-for-enterprise-saas-22fd168040b6) | Isolation + shared control/observability planes | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 | 3 | **Distributed Prime Number Finder** | [Read](https://medium.com/gitconnected/distributed-prime-number-finder-scalable-sieve-architecture-for-1-billion-integers-80a06c0939d4) | Billion-scale parallel compute blueprint | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
+
+---
+
+## 📊 Monitoring / Observability
+
+| # | Title | Link | What You’ll Learn | Status |
+|---|-------|------|-------------------|:-----:|
+| 1| **Monitoring & Alerting Framework for Distributed Systems (Part 1)** | [Read](https://medium.com/@scalabrix/monitoring-and-alerting-framework-for-distributed-systems-part-1-831748a28576) | SLI/SLO design, error budgets, and multi-window burn rate alerting for production-grade reliability | ![Published](https://img.shields.io/badge/Status-Published-brightgreen) |
 
 ---
 
