@@ -54,7 +54,7 @@ Learn how to build **scalable systems**, design **fault-tolerant architectures**
 - [🧪 Code Execution, Contests & Scheduling](#-code-execution-contests--scheduling)
 - [🏛 Domain Case Studies (Product Architectures)](#-domain-case-studies-product-architectures)
 - [🤖 Agent Era & Next-Gen Architectures](#-agent-era--nextgen-architectures)
-- [📊 Monitoring & Alerting (SRE Fundamentals)](#-monitoring--alerting-sre-fundamentals)
+- [📊 Monitoring & Alerting (SRE Fundamentals)](#-monitoring--observability)
 - [📊 Project Metrics](#-project-metrics)
 - [🤝 Contributing](#-contributing)
 
